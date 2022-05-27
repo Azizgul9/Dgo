@@ -86,6 +86,9 @@ section {
   color: #fff;
   border-radius: 100px;
 }
+.btn-play i {
+  font-size: 32px;
+}
 .section-intro {
   margin-bottom: 40px;
 }
@@ -157,4 +160,11 @@ form input .form-control {
 }
 form .form-control::placeholder {
   color: #ccc;
+}
+footer {
+  background: linear-gradient(to right, #011727, #41ead4);
+  color: #fff;
+}
+footer a {
+  color: #fff;
 }

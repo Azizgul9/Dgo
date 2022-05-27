@@ -10,11 +10,12 @@
       integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
       crossorigin="anonymous"
     />
+    <link rel="stylesheet" href="css/line-icons.css" />
     <link rel="stylesheet" href="css/style.css" />
   </head>
-  <body>
+  <body data-bs-spy="scroll" data-bs-target=".navbar">
     <!-- navbar -->
-    <nav class="navbar navbar-expand-lg bg-white">
+    <nav class="navbar fixed-top navbar-expand-lg bg-white">
       <div class="container">
         <a class="navbar-brand" href="#">Dgo</a>
         <button
@@ -31,49 +32,127 @@
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav ms-auto">
             <li class="nav-item">
-              <a class="nav-link" href="#">Home</a>
+              <a class="nav-link" href="#home">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Servises</a>
+              <a class="nav-link" href="#services">Servises</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Shimpent</a>
+              <a class="nav-link" href="#about">About</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">About</a>
+              <a class="nav-link" href="#reviews">Reviews</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Blog</a>
+              <a class="nav-link" href="#blog">Blog</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Contuct</a>
+              <a class="nav-link" href="#contact">Contact</a>
             </li>
           </ul>
         </div>
       </div>
     </nav>
     <!-- hero -->
-    <section id="home" class="bg-cover">
+    <section id="home" class="bg-cover hero_section">
       <div class="overlay"></div>
-      <div class="container">
+      <div class="container text-white text-center">
         <div class="row">
           <div class="col-12">
-            <h1>
+            <h1 class="display-4">
               Quick & Reliable <br />
               Delivery and Go!
             </h1>
-            <p>
+            <p class="my-4">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem
               <br />
-              repellendus fugiat doloribus beatae quas explicabo reprehenderit
-              hic facilis facere culpa?
+              repellendus fugiat doloribus beatae quas explicabo reprehenderit.
             </p>
-            <a href="#" class="btn btn_main">Get Started</a>
+            <a href="#" class="btn btn-main">Get Started</a>
           </div>
         </div>
       </div>
     </section>
-
+    <!-- services -->
+    <section id="services" class="text-center">
+      <div class="container">
+        <div class="row">
+          <div class="col-12 section-intro text-center">
+            <h1>Our Services</h1>
+            <div class="divider"></div>
+            <p>
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Neque
+              laborum deserunt deleniti eius aut. Sequi corporis rem
+              dignissimos. Eos, quis!
+            </p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-4">
+            <div class="service">
+              <div class="service-img">
+                <img src="assets/promo.jpg" alt="" />
+                <div class="icon"><i class="icon-browser"></i></div>
+              </div>
+              <h5 class="mt-5 pt-4">Service Name</h5>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis,
+                eveniet? Eligendi quidem quam repellendus quisquam iusto
+                voluptates voluptas autem dolore aliquam fugit ab dolorem,
+                aspernatur aperiam suscipit neque consectetur molestias!
+              </p>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="service">
+              <div class="service-img">
+                <img src="assets/promo_2.jpg" alt="" />
+                <div class="icon"><i class="icon-bargraph"></i></div>
+              </div>
+              <h5 class="mt-5 pt-4">Service Name</h5>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis,
+                eveniet? Eligendi quidem quam repellendus quisquam iusto
+                voluptates voluptas autem dolore aliquam fugit ab dolorem,
+                aspernatur aperiam suscipit neque consectetur molestias!
+              </p>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="service">
+              <div class="service-img">
+                <img src="assets/promo.jpg" alt="" />
+                <div class="icon"><i class="icon-camera"></i></div>
+              </div>
+              <h5 class="mt-5 pt-4">Service Name</h5>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis,
+                eveniet? Eligendi quidem quam repellendus quisquam iusto
+                voluptates voluptas autem dolore aliquam fugit ab dolorem,
+                aspernatur aperiam suscipit neque consectetur molestias!
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- about -->
+    <section id="about" class="bg-cover about">
+      <div class="overlay"></div>
+      <div class="container text-white text-center">
+        <div class="row">
+          <div class="col-12 section-intro text-center">
+            <h1>Whatch Our Video</h1>
+            <div class="divider"></div>
+            <p>
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Neque
+              laborum deserunt deleniti eius aut. Sequi corporis rem
+              dignissimos. Eos, quis!
+            </p>
+            <a href="#" class="video-btn">Play</a>
+        </div>
+      </div>
+    </section>
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
